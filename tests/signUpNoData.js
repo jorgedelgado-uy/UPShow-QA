@@ -1,6 +1,6 @@
 const data = require("../utils/data");
 
-describe('User Sign Up existing email', () => {
+describe('User Sign Up no data', () => {
     this.tags = ['register', 'negative'];
 
     it('User navigates to registration page', (browser) => {
