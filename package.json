@@ -1,0 +1,22 @@
+{
+  "name": "qa-nightwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "nightwatch",
+    "test:reporter" : "nightwatch tests --reporter html-reporter.js"
+  },
+  "dependencies": {
+    "chai": "~4.2.0",
+    "chromedriver": "^91.0.1",
+    "fs": "^0.0.1-security",
+    "geckodriver": "^2.0.0",
+    "handlebars": "^4.7.7",
+    "mocha": "~6.2.2",
+    "nightwatch": "1.4.3",
+    "path": "^0.12.7",
+    "selenium-server": "3.141.59"
+  },
+  "author": "Jorge"
+}
